@@ -415,7 +415,7 @@ Data Management	Administración de datos
 Data Stores	Almacenes de datos
 Data type	Tipo de datos
 Data…	Datos…
-Day and night shading for a time.	Sombreado de día y noche para una hora.
+Day and night shading for a time.	Sombreado de día y noche en un momento dado.
 Decline	Rechazar
 Deep Learning	Aprendizaje profundo
 Deep Learning\nTools	Herramientas de\naprendizaje profundo
@@ -731,8 +731,8 @@ Groups	Grupos
 Guided analysis: suitability, visibility, networks, interpolation and more.	Análisis guiado: idoneidad, visibilidad, redes, interpolación y más.
 Halo	Halo
 Harbour (qualitative)	Puerto (cualitativa)
-Haze	Calima
-Haze, fog, rain or snow over the map.	Calima, niebla, lluvia o nieve sobre el mapa.
+Haze	Bruma
+Haze, fog, rain or snow over the map.	Bruma, niebla, lluvia o nieve sobre el mapa.
 Height	Altura
 Height (mm)	Altura (mm)
 Help	Ayuda
@@ -740,14 +740,14 @@ Help › Help	Ayuda › Ayuda
 Hexagons	Hexágonos
 Hide	Ocultar
 Hide features far from the view's centre.	Ocultar las entidades alejadas del centro de la vista.
-Hide labels when the viewer is closer than this.	Ocultar las etiquetas cuando el observador esté más cerca que esto.
-Hide labels when the viewer is farther than this.	Ocultar las etiquetas cuando el observador esté más lejos que esto.
+Hide labels when the viewer is closer than this.	Ocultar las etiquetas cuando el observador esté más cerca que este valor.
+Hide labels when the viewer is farther than this.	Ocultar las etiquetas cuando el observador esté más lejos que este valor.
 Hide walls facing away from you.	Ocultar las paredes orientadas en sentido contrario.
 High values of the first raster and low values of the second score best.	Los valores altos del primer ráster y bajos del segundo puntúan mejor.
 Histogram Equalize	Ecualizar histograma
 Histograms and correlations	Histogramas y correlaciones
 History	Historial
-Hold	Mantener
+Hold	Retener
 Home	Inicio
 Home › Add	Inicio › Añadir
 Homepage	Página principal
@@ -919,7 +919,7 @@ Lock	Bloquear
 Long	Entero largo
 Longitude	Longitud
 Longitude (X)	Longitud (X)
-Lower Priority	Prioridad más baja
+Lower Priority	Bajar prioridad
 Magnifier	Lupa
 Major Lakes	Lagos principales
 Major Rivers	Ríos principales
@@ -1178,7 +1178,7 @@ Paste Special (as a new layer)	Pegado especial (como capa nueva)
 paste your key	pegue su clave
 Pause	Pausar
 PDF or PNG	PDF o PNG
-Percent Clip	Recorte de porcentaje
+Percent Clip	Recorte porcentual
 Performance	Rendimiento
 Picture	Imagen
 Pictures	Imágenes
@@ -1298,7 +1298,7 @@ Redo	Rehacer
 Redo the change you undid.	Rehacer el cambio que deshizo.
 Redo {action}	Rehacer {action}
 Red–Blue	Rojo–Azul
-Refine the search to see {n} more	Refina la búsqueda para ver {n} más
+Refine the search to see {n} more	Refine la búsqueda para ver {n} más
 Refresh	Actualizar
 Refresh Map Series	Actualizar serie de mapas
 Refresh the map series from its index layer.	Actualizar la serie de mapas a partir de su capa de índice.
@@ -1840,7 +1840,7 @@ Z factor	Factor Z
 Zoom	Zoom
 Zoom about the pointer	Zoom alrededor del puntero
 Zoom Box	Zoom a rectángulo
-Zoom Frame	Marco de zoom
+Zoom Frame	Zoom en el marco
 Zoom In	Acercar
 Zoom in	Acercar
 Zoom in / out	Acercar / alejar
