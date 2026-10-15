@@ -357,7 +357,7 @@ fn layer_row(app: &mut RustGisApp, ui: &mut Ui, l: &Layer, scale: f64, t: &Token
     } else {
         t.text
     };
-    let name = if l.definition_query.is_some() { format!("{}  (filtered)", l.name) } else { l.name.clone() };
+    let name = if l.definition_query.is_some() { format!("{}  {}", l.name, tl!("(filtered)")) } else { l.name.clone() };
     ui.painter().text(pos2(x, r.center().y), Align2::LEFT_CENTER, &name, if active { semibold(12.5) } else { regular(12.5) }, color);
     if !l.selection.is_empty() {
         let badge = format!("{}", l.selection.len());

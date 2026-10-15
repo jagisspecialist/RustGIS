@@ -1,6 +1,7 @@
 # it interface catalog: English<TAB>translation
  by 	 di
 (b4-b3)/(b4+b3)	(b4-b3)/(b4+b3)
+(filtered)	(filtrato)
 00:00 UTC	00:00 UTC
 06:00 UTC	06:00 UTC
 12:00 UTC	12:00 UTC
@@ -11,7 +12,7 @@ A 3D globe seen from space.	Un globo 3D visto dallo spazio.
 A blank map with a basemap	Una mappa vuota con una mappa di base
 A fast, free and open-source GIS written in pure Rust, for mapping, analyzing and sharing geospatial data on the desktop and in the browser.	Un GIS veloce, libero e open source scritto in Rust puro, per mappare, analizzare e condividere dati geospaziali sul desktop e nel browser.
 A flat scene centred on the view (azimuthal equidistant).	Una scena piana centrata sulla vista (azimutale equidistante).
-A globe scene.	Una scena globo.
+A globe scene.	Una scena a globo.
 A magnifying lens that follows the pointer.	Una lente d'ingrandimento che segue il puntatore.
 A notebook of text and command cells.	Un notebook di celle di testo e di comando.
 A projected coordinate system.	Un sistema di coordinate proiettate.
@@ -135,7 +136,7 @@ Area of use: within {r}° of {lon}°, {lat}°	Area di utilizzo: entro {r}° da {
 Area {area}   ·   Perimeter {perimeter}	Area {area}   ·   Perimetro {perimeter}
 Areas (name, land use, area)	Aree (nome, uso del suolo, area)
 Ask a question about your data, or describe what to do with the map. The assistant runs RustGIS commands for you; every change can be undone.	Fai una domanda sui tuoi dati, o descrivi cosa fare con la mappa. L'assistente esegue i comandi di RustGIS per te; ogni modifica può essere annullata.
-Ask about the map, or tell it what to do…	Chiedi qualcosa sulla mappa, o dille cosa fare…
+Ask about the map, or tell it what to do…	Chiedi qualcosa sulla mappa, o digli cosa fare…
 Ask about your data, or tell the assistant what to do with the map.	Chiedi qualcosa sui tuoi dati, o di' all'assistente cosa fare con la mappa.
 Assistant settings	Impostazioni dell'assistente
 Atlas	Atlante
@@ -407,14 +408,14 @@ Cut a raster into web map tiles	Taglia un raster in tile per mappe web
 Cut a raster into web map tiles (XYZ PNG) with a viewer page.	Taglia un raster in tile per mappe web (XYZ PNG) con una pagina di visualizzazione.
 Dark\nMode	Modalità\nscura
 Data	Dati
-Data Design	Struttura dati
+Data Design	Progettazione dati
 Data Engineering	Ingegneria dei dati
 Data Interop	Interoperabilità dati
 Data Management	Gestione dati
 Data Stores	Archivi dati
 Data type	Tipo di dati
 Data…	Dati…
-Day and night shading for a time.	Ombreggiatura giorno e notte per un'ora.
+Day and night shading for a time.	Ombreggiatura giorno e notte per un dato orario.
 Decline	Rifiuta
 Deep Learning	Deep Learning
 Deep Learning\nTools	Strumenti di\ndeep learning
@@ -598,7 +599,7 @@ Export the layer.	Esporta il layer.
 Export the layout as PDF or PNG.	Esporta il layout come PDF o PNG.
 Export the map view as a PNG image (with labels and a scale bar).	Esporta la vista della mappa come immagine PNG (con etichette e barra di scala).
 Export the open layout as PDF or PNG.	Esporta il layout aperto come PDF o PNG.
-Export the presentation as a slideshow or PDF, or save it as a file.	Esporta la presentazione come presentazione o PDF, oppure salvala come file.
+Export the presentation as a slideshow or PDF, or save it as a file.	Esporta la presentazione come slideshow o PDF, oppure salvala come file.
 Export the report, or save it as a report file or template.	Esporta il report, oppure salvalo come file di report o modello.
 Export the selected layer as a 3D model (OBJ), polygons extruded.	Esporta il layer selezionato come modello 3D (OBJ), con poligoni estrusi.
 Export the selected layer to GeoJSON or CSV.	Esporta il layer selezionato in GeoJSON o CSV.
@@ -1160,7 +1161,7 @@ Page {n} of {total}	Pagina {n} di {total}
 Page {n} of {total}: {name}	Pagina {n} di {total}: {name}
 Pages of maps, text, images and videos, shown one after another.	Pagine di mappe, testo, immagini e video, mostrate una dopo l'altra.
 Pan	Sposta
-Pan (Explore) · any tool	Pan (Esplora) · qualsiasi strumento
+Pan (Explore) · any tool	Sposta (Esplora) · qualsiasi strumento
 Pan to a longitude/latitude.	Sposta la vista su una longitudine/latitudine.
 Pan with the mouse, zoom with the wheel and click features to see their attributes.	Sposta la vista con il mouse, ingrandisci con la rotellina e fai clic sugli elementi per vederne gli attributi.
 Pane Sets	Set di pannelli
@@ -1551,7 +1552,7 @@ Simulation	Simulazione
 Single Symbol	Simbolo singolo
 Size	Dimensione
 Size, bands, statistics and coordinate system.	Dimensione, bande, statistiche e sistema di coordinate.
-Slideshow, PDF or PNG	Presentazione, PDF o PNG
+Slideshow, PDF or PNG	Slideshow, PDF o PNG
 Slope, aspect, hillshade, NDVI, band math, thresholds.	Pendenza, esposizione, ombreggiatura, NDVI, calcolo tra bande, soglie.
 Slope, hillshade, NDVI and more.	Pendenza, ombreggiatura, NDVI e altro.
 Small scales	Piccole scale
@@ -1785,7 +1786,7 @@ Where	Dove
 Where Clause	Clausola where
 Where labels sit relative to their features.	Dove si trovano le etichette rispetto ai loro elementi.
 Where new features get their elevation (the z field).	Da dove i nuovi elementi ricevono la quota (il campo z).
-Where the map opens: the full extent or a view you saved.	Dove si apre la mappa: l'estensione completa o una vista salvata.
+Where the map opens: the full extent or a view you saved.	Dove si apre la mappa: l'estensione totale o una vista salvata.
 Where tools work	Dove operano gli strumenti
 Which 5 countries have the largest GDP?	Quali sono i 5 paesi con il PIL più alto?
 Whose borders the sample countries and the basemap outline show.	Di chi sono i confini mostrati dai paesi di esempio e dal contorno della mappa di base.
@@ -1862,5 +1863,5 @@ Zoom To World	Zoom al mondo
 {type} · {format}, read in place · a sample of {n} of the {matched} features in view (zoom in to see them all) · {renderer}	{type} · {format}, letto sul posto · un campione di {n} dei {matched} elementi in vista (ingrandisci per vederli tutti) · {renderer}
 {type} · {format}, read in place · {n} of {total} features in view · {renderer}	{type} · {format}, letto sul posto · {n} di {total} elementi in vista · {renderer}
 {url}: only HTTPS addresses, or plain HTTP on this computer or network, are allowed	{url}: sono consentiti solo indirizzi HTTPS, o HTTP semplice su questo computer o su questa rete
-© OpenStreetMap contributors	© Collaboratori di OpenStreetMap
+© OpenStreetMap contributors	© contributori di OpenStreetMap
 ⌘K	⌘K
